@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>saws_description</name>
+  <version>1.0.0</version>
+  <description>Gazebo Visualization for UR5 Setup of the Robot with Realsense and Robotiq Gripper</description>
+  <maintainer email="sgoyal18@jhu.edu">Shashank Goyal</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>ur_description</depend>
+  <depend>realsense2_description</depend>
+  <depend>turtlebot4_description</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
